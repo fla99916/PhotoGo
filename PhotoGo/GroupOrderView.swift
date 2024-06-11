@@ -24,17 +24,18 @@ struct GroupOrderView: View {
                     ProgressView()
                 }
                 
-                VStack {
+                VStack(alignment: .leading,
+                       content: {
                     Text(groupOrder.title)
                         .font(.headline)
                         .lineLimit(1)
                     Text(groupOrder.owner)
                         .font(.subheadline)
                         .lineLimit(1)
-                    Text(groupOrder.onCreationDate.description)
+                    Text(groupOrder.onCreationDate.formatted(.dateTime.day().month().year()))
                         .font(.callout)
                         .lineLimit(1)
-                }
+                })
                 
 
                 Spacer()
