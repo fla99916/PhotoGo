@@ -23,7 +23,9 @@ struct GroupOrderTableView: View {
                     groupOrdersList.move(fromOffsets: indices, toOffset: newOffset)
                 }
             }
-            .navigationDestination(isPresented: $isAddNewGroupOrderViewActive, destination:  { AddNewGroupOrderView() })
+            .sheet(isPresented: $isAddNewGroupOrderViewActive) {
+                AddNewGroupOrderView()
+            }
 
 
             .navigationTitle("Group Orders")

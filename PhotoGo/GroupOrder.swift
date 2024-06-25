@@ -9,7 +9,7 @@ import Foundation
 
 struct GroupOrder: Identifiable {
     let id = UUID()
-    let title: String
+    let groupOrderName: String
     let image: String
     let owner: String
     let onCreationDate: Date

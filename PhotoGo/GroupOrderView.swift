@@ -26,7 +26,7 @@ struct GroupOrderView: View {
                 
                 VStack(alignment: .leading,
                        content: {
-                    Text(groupOrder.title)
+                    Text(groupOrder.groupOrderName)
                         .font(.headline)
                         .lineLimit(1)
                     Text(groupOrder.owner)

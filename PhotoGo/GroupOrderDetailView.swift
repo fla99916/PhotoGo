@@ -22,7 +22,7 @@ struct GroupOrderDetailView: View {
                     } placeholder: {
                         ProgressView()
                     }
-                    Text(groupOrder.title)
+                    Text(groupOrder.image)
                         .font(.largeTitle)
                         .padding(.bottom, 10)
                     Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis massa et eros volutpat posuere a vel nisl.")
@@ -32,7 +32,7 @@ struct GroupOrderDetailView: View {
                     Spacer()
                 }
             }
-            .navigationTitle(groupOrder.title)
+            .navigationTitle(groupOrder.image)
             .edgesIgnoringSafeArea(.bottom)
         }
     }
