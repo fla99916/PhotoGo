@@ -23,6 +23,7 @@
 		06DC71682C2A1CB9009F9511 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 06DC71672C2A1CB9009F9511 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		06DC716A2C2A1CB9009F9511 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 06DC71692C2A1CB9009F9511 /* FirebaseAppCheck */; };
 		06DC716C2C2A20AD009F9511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC716B2C2A20AD009F9511 /* AppDelegate.swift */; };
+		06DC716E2C2A2407009F9511 /* AddNewGroupOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		06BBABC32C0E6B9300257B9D /* GroupOrder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupOrder+Extension.swift"; sourceTree = "<group>"; };
 		06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		06DC716B2C2A20AD009F9511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				06BBABB12C0E4D8600257B9D /* Assets.xcassets */,
 				06BBABB32C0E4D8600257B9D /* Preview Content */,
 				06DC716B2C2A20AD009F9511 /* AppDelegate.swift */,
+				06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */,
 			);
 			path = PhotoGo;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				06DC716C2C2A20AD009F9511 /* AppDelegate.swift in Sources */,
 				06BBABBE2C0E4DD800257B9D /* GroupOrderDetailView.swift in Sources */,
 				06BBABC02C0E4EA400257B9D /* GroupOrderTableView.swift in Sources */,
+				06DC716E2C2A2407009F9511 /* AddNewGroupOrderView.swift in Sources */,
 				06BBABC42C0E6B9300257B9D /* GroupOrder+Extension.swift in Sources */,
 				06BBABC22C0E67DB00257B9D /* ContentView.swift in Sources */,
 				06BBABB02C0E4D8500257B9D /* GroupOrderView.swift in Sources */,
