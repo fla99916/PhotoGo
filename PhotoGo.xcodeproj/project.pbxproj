@@ -16,6 +16,7 @@
 		06BBABC02C0E4EA400257B9D /* GroupOrderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBABBF2C0E4EA400257B9D /* GroupOrderTableView.swift */; };
 		06BBABC22C0E67DB00257B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBABC12C0E67DB00257B9D /* ContentView.swift */; };
 		06BBABC42C0E6B9300257B9D /* GroupOrder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBABC32C0E6B9300257B9D /* GroupOrder+Extension.swift */; };
+		06CE3EB42C34AB88006CC291 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 06CE3EB32C34AB88006CC291 /* Localizable.xcstrings */; };
 		06DC715F2C2A1B46009F9511 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */; };
 		06DC71622C2A1CB9009F9511 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 06DC71612C2A1CB9009F9511 /* FirebaseAnalytics */; };
 		06DC71642C2A1CB9009F9511 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 06DC71632C2A1CB9009F9511 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -37,6 +38,7 @@
 		06BBABBF2C0E4EA400257B9D /* GroupOrderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOrderTableView.swift; sourceTree = "<group>"; };
 		06BBABC12C0E67DB00257B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06BBABC32C0E6B9300257B9D /* GroupOrder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupOrder+Extension.swift"; sourceTree = "<group>"; };
+		06CE3EB32C34AB88006CC291 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		06DC716B2C2A20AD009F9511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupOrderView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				06BBABC12C0E67DB00257B9D /* ContentView.swift */,
 				06BBABBB2C0E4DB800257B9D /* GroupOrder.swift */,
 				06BBABBF2C0E4EA400257B9D /* GroupOrderTableView.swift */,
+				06CE3EB32C34AB88006CC291 /* Localizable.xcstrings */,
 				06BBABAF2C0E4D8500257B9D /* GroupOrderView.swift */,
 				06BBABBD2C0E4DD800257B9D /* GroupOrderDetailView.swift */,
 				06BBABB12C0E4D8600257B9D /* Assets.xcassets */,
@@ -150,6 +153,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ko,
 			);
 			mainGroup = 06BBABA12C0E4D8500257B9D;
 			packageReferences = (
@@ -171,6 +176,7 @@
 			files = (
 				06BBABB52C0E4D8600257B9D /* Preview Assets.xcassets in Resources */,
 				06BBABB22C0E4D8600257B9D /* Assets.xcassets in Resources */,
+				06CE3EB42C34AB88006CC291 /* Localizable.xcstrings in Resources */,
 				06DC715F2C2A1B46009F9511 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +208,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -265,6 +272,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
