@@ -60,6 +60,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06672EFB2C5840A500716052 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		06672EFC2C5840AB00716052 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		06672EFD2C5840BA00716052 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		06672EFE2C5840C000716052 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06BBABC12C0E67DB00257B9D /* ContentView.swift */,
+				06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */,
+				06BBABBF2C0E4EA400257B9D /* GroupOrderTableView.swift */,
+				06BBABAF2C0E4D8500257B9D /* GroupOrderView.swift */,
+				06BBABBD2C0E4DD800257B9D /* GroupOrderDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		06672EFF2C5840C400716052 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06BBABBB2C0E4DB800257B9D /* GroupOrder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		06BBABA12C0E4D8500257B9D = {
 			isa = PBXGroup;
 			children = (
@@ -79,18 +120,17 @@
 		06BBABAC2C0E4D8500257B9D /* PhotoGo */ = {
 			isa = PBXGroup;
 			children = (
-				06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */,
-				06BBABAD2C0E4D8500257B9D /* PhotoGoApp.swift */,
-				06BBABC12C0E67DB00257B9D /* ContentView.swift */,
-				06BBABBB2C0E4DB800257B9D /* GroupOrder.swift */,
-				06BBABBF2C0E4EA400257B9D /* GroupOrderTableView.swift */,
-				06CE3EB32C34AB88006CC291 /* Localizable.xcstrings */,
-				06BBABAF2C0E4D8500257B9D /* GroupOrderView.swift */,
-				06BBABBD2C0E4DD800257B9D /* GroupOrderDetailView.swift */,
-				06BBABB12C0E4D8600257B9D /* Assets.xcassets */,
+				06672EFF2C5840C400716052 /* Models */,
+				06672EFE2C5840C000716052 /* Views */,
+				06672EFD2C5840BA00716052 /* ViewModels */,
+				06672EFC2C5840AB00716052 /* Repositories */,
+				06672EFB2C5840A500716052 /* Services */,
 				06BBABB32C0E4D8600257B9D /* Preview Content */,
 				06DC716B2C2A20AD009F9511 /* AppDelegate.swift */,
-				06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */,
+				06BBABAD2C0E4D8500257B9D /* PhotoGoApp.swift */,
+				06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */,
+				06CE3EB32C34AB88006CC291 /* Localizable.xcstrings */,
+				06BBABB12C0E4D8600257B9D /* Assets.xcassets */,
 			);
 			path = PhotoGo;
 			sourceTree = "<group>";
