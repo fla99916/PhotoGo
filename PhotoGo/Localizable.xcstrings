@@ -31,6 +31,9 @@
         }
       }
     },
+    "Error" : {
+
+    },
     "Group Order Name..." : {
       "localizations" : {
         "en" : {
@@ -74,7 +77,13 @@
         }
       }
     },
+    "Loading..." : {
+
+    },
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis massa et eros volutpat posuere a vel nisl." : {
+
+    },
+    "OK" : {
 
     }
   },

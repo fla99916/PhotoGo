@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct GroupOrder: Identifiable {
-    let id = UUID()
+struct GroupOrder: Identifiable, Codable {
+    var id = UUID()
     let groupOrderName: String
     let image: String
     let owner: String

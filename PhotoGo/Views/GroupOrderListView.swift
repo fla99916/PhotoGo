@@ -10,6 +10,7 @@ import SwiftUI
 struct GroupOrderListView: View {
     @State private var groupOrdersList = GroupOrder.getPreviewDataArray()
     @State private var isAddNewGroupOrderViewActive = false
+    @State private var groupOrderListViewModel = GroupOrderListViewModel()
     var body: some View {
         NavigationStack {
             List {
@@ -24,7 +25,9 @@ struct GroupOrderListView: View {
                 }
             }
             .sheet(isPresented: $isAddNewGroupOrderViewActive) {
-                AddNewGroupOrderView()
+                AddNewGroupOrderView(
+                    groupOrderListViewModel: groupOrderListViewModel
+                )
             }
 
 
