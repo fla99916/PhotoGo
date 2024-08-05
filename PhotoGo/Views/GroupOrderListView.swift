@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GroupOrderTableView: View {
+struct GroupOrderListView: View {
     @State private var groupOrdersList = GroupOrder.getPreviewDataArray()
     @State private var isAddNewGroupOrderViewActive = false
     var body: some View {
@@ -45,5 +45,5 @@ struct GroupOrderTableView: View {
 }
 
 #Preview {
-    GroupOrderTableView()
+    GroupOrderListView()
 }
