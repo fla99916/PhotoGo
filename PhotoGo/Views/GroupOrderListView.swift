@@ -7,14 +7,15 @@
 
 import SwiftUI
 
+@MainActor
 struct GroupOrderListView: View {
     @State private var groupOrdersList = GroupOrder.getPreviewDataArray()
     @State private var isAddNewGroupOrderViewActive = false
-    @State private var groupOrderListViewModel = GroupOrderListViewModel()
+     private var groupOrderListViewModel = GroupOrderListViewModel()
     var body: some View {
         NavigationStack {
             List {
-                ForEach(groupOrdersList) { groupOrder in
+                ForEach(groupOrderListViewModel.groupOrders) { groupOrder in
                     GroupOrderView(groupOrder: groupOrder)
                 }
                 .onDelete { indexSet in
@@ -28,6 +29,8 @@ struct GroupOrderListView: View {
                 AddNewGroupOrderView(
                     groupOrderListViewModel: groupOrderListViewModel
                 )
+            }.onAppear {
+                groupOrderListViewModel.loadGroupOrders()
             }
 
 

@@ -26,6 +26,7 @@
 		06DC715F2C2A1B46009F9511 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */; };
 		06DC716C2C2A20AD009F9511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC716B2C2A20AD009F9511 /* AppDelegate.swift */; };
 		06DC716E2C2A2407009F9511 /* AddNewGroupOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */; };
+		06EE074A2C6AB43D009D4709 /* GroupOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EE07492C6AB43D009D4709 /* GroupOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		06DC715E2C2A1B46009F9511 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		06DC716B2C2A20AD009F9511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupOrderView.swift; sourceTree = "<group>"; };
+		06EE07492C6AB43D009D4709 /* GroupOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				06672F092C5844EB00716052 /* GroupOrderListViewModel.swift */,
+				06EE07492C6AB43D009D4709 /* GroupOrderViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				06BBABC22C0E67DB00257B9D /* ContentView.swift in Sources */,
 				06BBABB02C0E4D8500257B9D /* GroupOrderView.swift in Sources */,
 				06BBABAE2C0E4D8500257B9D /* PhotoGoApp.swift in Sources */,
+				06EE074A2C6AB43D009D4709 /* GroupOrderViewModel.swift in Sources */,
 				06672F0A2C5844EB00716052 /* GroupOrderListViewModel.swift in Sources */,
 				06BBABBC2C0E4DB800257B9D /* GroupOrder.swift in Sources */,
 			);

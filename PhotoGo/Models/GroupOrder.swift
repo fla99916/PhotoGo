@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import FirebaseFirestoreSwift
 
 struct GroupOrder: Identifiable, Codable {
-    var id = UUID()
+    @DocumentID var id: String?
     let groupOrderName: String
     let image: String
     let owner: String

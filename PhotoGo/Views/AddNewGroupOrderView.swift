@@ -47,7 +47,7 @@ struct AddNewGroupOrderView: View {
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button(action: {
-                        groupOrderListViewModel.add(getGroupOrder())
+                        groupOrderListViewModel.addGroupOrder(getGroupOrder())
                     }) { Text("Add") }
                 }
                 
