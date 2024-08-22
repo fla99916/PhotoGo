@@ -79,23 +79,10 @@
 			path = Repositories;
 			sourceTree = "<group>";
 		};
-		06672EFD2C5840BA00716052 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				06672F092C5844EB00716052 /* GroupOrderListViewModel.swift */,
-				06EE07492C6AB43D009D4709 /* GroupOrderViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		06672EFE2C5840C000716052 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				06BBABC12C0E67DB00257B9D /* ContentView.swift */,
-				06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */,
-				06BBABBF2C0E4EA400257B9D /* GroupOrderListView.swift */,
-				06BBABAF2C0E4D8500257B9D /* GroupOrderView.swift */,
-				06BBABBD2C0E4DD800257B9D /* GroupOrderDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +110,51 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		06B0CCFE2C77E99E00E60993 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				06B0CD022C77E9E400E60993 /* DetailGroupOrder */,
+				06B0CD012C77E9D400E60993 /* AddGroupOrder */,
+				06B0CCFF2C77E9A800E60993 /* GroupOrderList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		06B0CCFF2C77E9A800E60993 /* GroupOrderList */ = {
+			isa = PBXGroup;
+			children = (
+				06B0CD002C77E9C500E60993 /* GroupOrderRow */,
+				06BBABBF2C0E4EA400257B9D /* GroupOrderListView.swift */,
+				06672F092C5844EB00716052 /* GroupOrderListViewModel.swift */,
+			);
+			path = GroupOrderList;
+			sourceTree = "<group>";
+		};
+		06B0CD002C77E9C500E60993 /* GroupOrderRow */ = {
+			isa = PBXGroup;
+			children = (
+				06BBABAF2C0E4D8500257B9D /* GroupOrderView.swift */,
+			);
+			path = GroupOrderRow;
+			sourceTree = "<group>";
+		};
+		06B0CD012C77E9D400E60993 /* AddGroupOrder */ = {
+			isa = PBXGroup;
+			children = (
+				06DC716D2C2A2407009F9511 /* AddNewGroupOrderView.swift */,
+			);
+			path = AddGroupOrder;
+			sourceTree = "<group>";
+		};
+		06B0CD022C77E9E400E60993 /* DetailGroupOrder */ = {
+			isa = PBXGroup;
+			children = (
+				06BBABBD2C0E4DD800257B9D /* GroupOrderDetailView.swift */,
+				06EE07492C6AB43D009D4709 /* GroupOrderViewModel.swift */,
+			);
+			path = DetailGroupOrder;
+			sourceTree = "<group>";
+		};
 		06BBABA12C0E4D8500257B9D = {
 			isa = PBXGroup;
 			children = (
@@ -143,9 +175,9 @@
 		06BBABAC2C0E4D8500257B9D /* PhotoGo */ = {
 			isa = PBXGroup;
 			children = (
+				06B0CCFE2C77E99E00E60993 /* Modules */,
 				06672EFF2C5840C400716052 /* Models */,
 				06672EFE2C5840C000716052 /* Views */,
-				06672EFD2C5840BA00716052 /* ViewModels */,
 				06672EFC2C5840AB00716052 /* Repositories */,
 				06672EFB2C5840A500716052 /* Services */,
 				06BBABB32C0E4D8600257B9D /* Preview Content */,

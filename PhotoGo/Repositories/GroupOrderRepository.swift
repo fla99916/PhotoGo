@@ -19,10 +19,7 @@ class GroupOrderRepository: ObservableObject {
     private let store = Firestore.firestore()
         
     func add(_ groupOrder: GroupOrder) async throws {
-        guard let dictionary = groupOrder.toDictionary() else {
-            throw DefaultError.defaultError
-        }
-        try await store.collection(path).addDocument(data: dictionary)
+        try store.collection(path).addDocument(from: groupOrder)
     }
     
     func getGroupOrders() async throws -> [GroupOrder] {
